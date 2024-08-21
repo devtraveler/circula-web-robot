@@ -1,0 +1,6 @@
+robotframework==7.0.1
+robotframework-seleniumlibrary==6.5.0
+robotframework-debuglibrary==2.5.0
+webdriver-manager==2.3.0
+webdrivermanager==0.10.0
+beautifulsoup4==4.9.3

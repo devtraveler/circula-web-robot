@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.9.5 on win32)" generated="2024-08-22T00:20:26.819078" rpa="false" schemaversion="5">
+<suite id="s1" name="SignUpInTests" source="C:\Users\Lenovo\Desktop\Circula_task\circula-web-task-robot\Tests\SignUpInTests.robot">
+<test id="s1-t1" name="Verify The User Can Add A Country To The Dropdown" line="13">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-08-22T00:20:27.436216" level="INFO">Opening browser 'chrome' to base url 'https://www.circula.com/en'.</msg>
+<arg>${HOMEPAGE}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-22T00:20:27.436216" elapsed="4.621112"/>
+</kw>
+<kw name="CommonApp.Accept All Cookies">
+<msg time="2024-08-22T00:20:32.068321" level="FAIL">No keyword with name 'CommonApp.Accept All Cookies' found.</msg>
+<status status="FAIL" start="2024-08-22T00:20:32.068321" elapsed="0.001000">No keyword with name 'CommonApp.Accept All Cookies' found.</status>
+</kw>
+<kw name="CommonApp.Navigate To The Sign In Page">
+<status status="NOT RUN" start="2024-08-22T00:20:32.078316" elapsed="0.000000"/>
+</kw>
+<kw name="CommonApp.Accept All Cookies">
+<status status="NOT RUN" start="2024-08-22T00:20:32.079316" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-22T00:20:32.082313" elapsed="2.338174"/>
+</kw>
+<status status="FAIL" start="2024-08-22T00:20:27.433705" elapsed="6.990779">No keyword with name 'CommonApp.Accept All Cookies' found.</status>
+</test>
+<status status="FAIL" start="2024-08-22T00:20:26.822061" elapsed="7.607420"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="SignUpInTests">SignUpInTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-22T00:20:26.856062" level="ERROR">Error in file 'C:\Users\Lenovo\Desktop\Circula_task\circula-web-task-robot\Tests\SignUpInTests.robot' on line 2: Resource file 'Resources\FileResource.robot' does not exist.</msg>
+<msg time="2024-08-22T00:20:26.858040" level="ERROR">Error in file 'C:\Users\Lenovo\Desktop\Circula_task\circula-web-task-robot\Tests\SignUpInTests.robot' on line 3: Resource file 'Resources\PageObjects\Common\CommonApp.robot' does not exist.</msg>
+</errors>
+</robot>
